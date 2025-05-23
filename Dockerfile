@@ -1,5 +1,5 @@
 # Node alpine image
-FROM node:alpine
+FROM node:23.11.1-alpine3.21
 
 # Set up files and dependencies
 RUN  apk update && apk upgrade && \
